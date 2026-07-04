@@ -86,12 +86,12 @@ h1 {
     font-family: 'afacad', sans-serif;
     font-size: 10px;
     background-color: var(--background-color);
-
-  
-
 }
 
-
+.hello-button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
 
 @media (max-width: 800px) {
     body {
