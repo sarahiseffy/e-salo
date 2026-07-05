@@ -277,9 +277,9 @@ p {
 
     }
 
-.hello-button{
+    .hello-button{
     margin-top: 12px;
-}
+    }
     .column-1, .column-2 {
         grid-template-columns: 1fr;
         text-align: center;
@@ -326,6 +326,7 @@ p {
     .footer-p {
         font-family: 'afacad', sans-serif;
         font-size: 10px;
+        margin-top: 0;
     }
 
     footer a {
