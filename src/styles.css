@@ -11,6 +11,12 @@ body {
     margin: 20px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1 {
 
     color: #b89e7e;
@@ -204,3 +210,14 @@ p {
 
 }
 
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'afacad', sans-serif;
+    font-size: 8px;
+}
