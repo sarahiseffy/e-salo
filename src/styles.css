@@ -160,6 +160,7 @@ p {
 
     h1 {
         text-align: center;
+        margin: 15px;
     }
 
     .column-1, .column-2 {
