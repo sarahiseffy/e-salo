@@ -23,6 +23,22 @@ section {
     padding: 20px;
 
 }
+
+.instagram-title {
+    font-family: 'lora', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.instagram-feed-widget {
+  max-width: 100%;
+    text-align: center;
+}
+
 .testimonials-title {
     font-family: 'lora', sans-serif;
     font-size: 60px;
