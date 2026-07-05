@@ -277,6 +277,9 @@ p {
 
     }
 
+.hello-button{
+    margin-top: 12px;
+}
     .column-1, .column-2 {
         grid-template-columns: 1fr;
         text-align: center;
@@ -328,7 +331,9 @@ p {
     footer a {
         font-size: 10px;
     }
-
+header a {
+        font-size: 15px;
+    }
     .testimonials-title {
         font-size: 30px;
     }
