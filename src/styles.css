@@ -155,7 +155,7 @@ header a {
     border: 0.5px solid var(--primary-color);
     cursor: pointer;
     font-family: 'afacad', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .hello-button {
