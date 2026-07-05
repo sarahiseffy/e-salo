@@ -29,6 +29,7 @@ section {
     color: var(--primary-color);
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .testimonials {
     display: grid;
