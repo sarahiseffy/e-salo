@@ -271,6 +271,12 @@ p {
         margin: 15px;
     }
 
+    .what-we-do, .who-we-are {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
     .column-1, .column-2 {
         grid-template-columns: 1fr;
         text-align: center;
@@ -320,6 +326,16 @@ p {
     }
 
     footer a {
+        font-size: 10px;
+    }
+
+    .testimonials-title {
+        font-size: 30px;
+    }
+
+    .testimonials {
+        grid-template-columns: 1fr;
+        gap: 10px;
         font-size: 10px;
     }
 
