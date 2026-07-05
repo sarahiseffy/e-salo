@@ -29,7 +29,7 @@ footer h3 {
     margin-bottom: 10px;
 }
 
-footer p {
+.footer-p {
     font-family: 'afacad', sans-serif;
     font-size: 16px;
     color: var(--secondary-color);
@@ -237,6 +237,27 @@ p {
         width: 100%;
         height: auto;
     }
+
+    footer ul {
+        font-size: 5px;
+        padding: 0;
+    }
+
+    footer h3 {
+        font-family: 'afacad', serif;
+        font-size: 10px;
+    }
+
+    .footer-p {
+        font-family: 'afacad', sans-serif;
+        font-size: 10px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+  
 
 }
 
