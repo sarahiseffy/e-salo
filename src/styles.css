@@ -126,12 +126,6 @@ header a {
   margin: 0 10px;
 }
 
-.home-img-1 {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: fill;
-}
 
 .column-1,
 .column-2 {
@@ -295,10 +289,6 @@ p {
     margin: 15px;
   }
 
-  .home-img-1 {
-    width: 75%;
-    height: auto;
-  }
 
   .who-button,
   .what-button {
@@ -309,11 +299,11 @@ p {
   .projects-home {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    font-size: 6px;
+    font-size: 10px;
   }
 
   .img {
-    width: 100%;
+    width: 75%;
     height: auto;
   }
 
