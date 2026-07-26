@@ -42,29 +42,11 @@ section {
   margin-top: 20px;
 }
 .testimonials {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  display: block;
   border-top: 0.5px solid var(--primary-color);
   border-bottom: 0.5px solid var(--primary-color);
   margin: 50px auto;
   padding: 20px;
-}
-
-.testimonial-text {
-  font-family: "afacad", sans-serif;
-  font-size: 20px;
-  color: var(--secondary-color);
-  text-align: justify;
-  margin-bottom: 10px;
-}
-
-.testimonial-author {
-  font-family: "afacad", sans-serif;
-  font-size: 15px;
-  color: var(--secondary-color);
-  text-align: right;
-  margin-top: 10px;
 }
 
 .footer-section {
@@ -368,7 +350,11 @@ p {
     font-size: 10px;
   }
 
-
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
 
 }
 
@@ -408,3 +394,91 @@ footer {
   background-color: #e6e1e1;
   transform: scale(1.5);
 }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: var(--secondary-color)
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: var(--secondary-color)
+      font-family: var(--secondary-color)
+      font-size: 15px;
+      padding: 8px 12px;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
