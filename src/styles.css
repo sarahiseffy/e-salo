@@ -241,6 +241,12 @@ p {
   color: var(--secondary-color);
 }
 
+.email {
+  display: inline-block;
+  font-size: 50px;
+  color: var(--secondary-color)
+}
+
 @media (max-width: 600px) {
   body {
     margin: 20px;
